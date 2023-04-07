@@ -16,7 +16,10 @@ let num2 = 32;
 - Alert `The value of num1 is [num1] and the value of num2 is [num2]`
 - Alert `The sum of [num1] and [num2] is [num1 + num1]`
 */
-
+let language="JavaScript";
+alert(`I am learning JavaScrit`);
+alert(`The value of num1 is 21 and the value of num2 is 32`);
+alert(`The value of 21 and 32 is 53`);
 /*
 2. Do the following using `alert`, `prompt` and `confirm` and `console`
 
@@ -43,3 +46,10 @@ let num2 = 32;
   - Log using console.log [numA - numB]
   - Log using console.log [numA * numB]
 */
+let numA=23;
+let numB=20;
+alert(numA+numB);
+alert(numA-numB);
+alert(numA*numB);
+console.log(numA-numB);
+console.log(numA*numB);
