@@ -7,9 +7,19 @@
   - `if` the number is odd print the message "number is odd"
 */
 
+let num=54;
+
+if (num / 2){
+  alert("number is even")
+} else{
+  alert("number is odd")
+};
 // 2. Write a program to accept two numbers from user using`prompt` and alert the max value.
+ let numA=Number(prompt("enter two numbers"));
+ alert(max-value);
 
 // 3. Convert the above code using`?` terniary operator
+num =even ? true:false;
 
 /*
 4. Write a program that asks the user for the house name and check the following conditions:
@@ -18,7 +28,15 @@
   - `if` house name is "lannister" then print the message " A lannister always pays his debt"
   - `else` print the message " All men must die"
 */
+let houseNAme="stark";
 
+if (houseName="stark"){
+  alert("Winter is coming")
+}else if (houseNAme="lannister"){
+  alert(" A lannister always pays his debt")
+}else{
+  alert(" All men must die")
+}
 // 5. Convert the above code using`?` terniary operator
 
 // Switch
