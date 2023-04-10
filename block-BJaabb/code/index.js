@@ -8,9 +8,11 @@
 let user=prompt("Enter Your Name?");
 alert(user);
 let userName= user;
-console.log(user);
-console.log(userName);
+console.log(user , userName);
+
 let age=22 ; isLearning= true;
+user ="John";
+console.log(user , userName);
 /* 2.
 Use `prompt` to take two numbers from user and store it in variable `numA` and `numB`. Create a third variable called `sum`, using `+` operator add numA and numB , store it in varible `sum` and using alert display `sum` in browser.
 */
@@ -29,7 +31,7 @@ for (let j = 0; j <= 10; j=j+1){
 } 
 
 // 4. Print the odd numbers from 9 to 1 (both inclusive) using a for loop.
-for (let i = 0; i <= 10; i=i+1){ 
+for (let i = 9; i <= 10; i=i+1){ 
     if(i % 2 != 0){
         console.log(i);
     }
