@@ -14,5 +14,7 @@ const ACCESSORY_PRICE = 9.99;
 var bank_balance = 303.91;
 var amount = 0;
 // your code goes here
-
+for (let i = 99.99 ; i = 0 ; i = i + PHONE_PRICE + TAX_RATE){
+    console.log(i);
+}
 // ⛑ Answer of the above will `$334.76`.
