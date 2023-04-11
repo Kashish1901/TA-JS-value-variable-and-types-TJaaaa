@@ -185,8 +185,8 @@ if (product > 0) {
 */
 
 // [Your code goes here]
-let numOne = +prompt("Enter the value of num1");
-let numTwo= +prompt("Enter the value of num2");
+let numOne = +prompt("Enter the value of numOne");
+let numTwo= +prompt("Enter the value of numTwo");
 let operation = prompt("Enter operation out of ( add , sub , mul , div)");
 
 switch ( operation) {
@@ -203,5 +203,5 @@ switch ( operation) {
     alert (`The division of ${numOne} and ${numTwo} is ${ numOne + numTwo}`);
     break;
     default:
-      alert(`Enter a valid input`)
+      alert(`Enter a valid input`);
 }
